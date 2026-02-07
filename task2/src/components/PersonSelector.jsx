@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import UserProfile from './UserProfile';
+import PersonData from './PersonData.jsx';
 
-export default function UserContainer() {
+export default function PersonSelector() {
   // БЛОК УПРАВЛЕНИЯ (какой ID сейчас)
   const [currentId, setCurrentId] = useState(1);
 
@@ -21,7 +21,7 @@ export default function UserContainer() {
         </button>
       </div>
 
-      <UserProfile userId={currentId} />
+      <PersonData userId={currentId} />
     </div>
   );
 }

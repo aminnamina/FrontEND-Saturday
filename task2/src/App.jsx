@@ -1,2 +1,5 @@
-import UserContainer from './components/UserContainer';
-export default function App() { return <UserContainer />; }
+import PersonSelector from './components/PersonSelector';
+
+export default function App() {
+  return <PersonSelector />;
+}
